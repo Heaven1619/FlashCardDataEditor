@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.Sets {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1;
+}
+.Set {
+    display: flex;
+    flex: 1;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.Card {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.SetScreen {
+    justify-content: center;
+    align-items: center;
+}
